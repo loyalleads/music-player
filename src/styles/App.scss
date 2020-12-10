@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #fcfcfc;
+}
+h1,
+h2,
+h3 {
+  color: rgb(54, 54, 54);
+}
+
+.App{
+transition: all 0.5s ease;
+}
+.library-active{
+  margin-left:30%
+}
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav"

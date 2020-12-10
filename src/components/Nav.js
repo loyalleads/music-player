@@ -9,7 +9,7 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
         onMouseEnter={() => setLibraryStatus(true)}
         onClick={() => setLibraryStatus(!libraryStatus)}
       >
-        {libraryStatus ? "close" : "Library"}
+        {libraryStatus ? "close" : "Library."}
         <FontAwesomeIcon icon={libraryStatus ? faTimesCircle : faMusic} />
       </button>
     </nav>
